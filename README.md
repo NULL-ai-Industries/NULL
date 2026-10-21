@@ -10,11 +10,14 @@ NULL keeps the persistent Textual terminal interface and adds a small, explicitl
    ollama pull qwen2.5:3b
    ```
 
-3. Open Terminal in this folder and run:
+3. Open Terminal and run:
 
-4. ```bash
+4.
+    ```bash
    git clone https://github.com/NULL-ai-Industries/NULL
    ```
+
+5. run this inside of the NULL folder by using the cd command
 
    ```bash
    chmod +x run.sh   # only needed if macOS says permission denied

@@ -1,0 +1,15 @@
+#!/bin/bash
+set -e
+
+cd "$(dirname "$0")"
+
+if [ ! -x ".venv/bin/python" ]; then
+    python3 -m venv .venv
+fi
+
+if [ ! -f ".venv/.packages-installed" ] || [ requirements.txt -nt ".venv/.packages-installed" ]; then
+    .venv/bin/python -m pip install -r requirements.txt
+    touch .venv/.packages-installed
+fi
+
+exec .venv/bin/python null.py

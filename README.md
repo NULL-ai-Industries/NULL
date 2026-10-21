@@ -12,6 +12,10 @@ NULL keeps the persistent Textual terminal interface and adds a small, explicitl
 
 3. Open Terminal in this folder and run:
 
+4. ```bash
+   git clone https://github.com/NULL-ai-Industries/NULL
+   ```
+
    ```bash
    chmod +x run.sh   # only needed if macOS says permission denied
    ./run.sh

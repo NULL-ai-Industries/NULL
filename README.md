@@ -17,7 +17,7 @@ NULL keeps the persistent Textual terminal interface and adds a small, explicitl
    ./run.sh
    ```
 
-   That's the one-command launcher. It creates `.venv` if needed, installs the requirements inside it, and launches NULL. On later runs, just use `./run.sh` again. You do not need to manually activate the environment.
+  It creates `.venv` if needed, installs the requirements inside it, and launches NULL. On later runs, just use `./run.sh` again. You do not need to manually activate the environment.
 
 ## Safe actions
 Type these into the NULL chat:
